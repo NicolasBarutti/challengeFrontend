@@ -56,8 +56,13 @@ main .about{
     padding-bottom: 50px;
 }
 
+.about .link-about{
+    margin-top: 60px;
+}
+
 .main-right img{
     height: 400px;
     width: 600px;
     margin: 60px 40px 0 0;
 }
+
