@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(14,95,253);
+    background: linear-gradient(90deg, rgba(14,95,253,1) 12%, rgba(14,175,253,1) 80%)
+}
+
+.header-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    padding: 15px;
+}
+
+.title{
+    margin: 20px 0 0 30px;
+}
+
+.links{
+    width: 500px;
+    margin-top: 120px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    color: #FFFFFF;
+}
