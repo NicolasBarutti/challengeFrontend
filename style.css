@@ -66,3 +66,15 @@ main .about{
     margin: 60px 40px 0 0;
 }
 
+footer{
+    background: rgb(64,94,151);
+    background: linear-gradient(90deg, rgba(64,94,151,1) 12%, rgba(103,151,243,1) 80%);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-left{
+
+}
+
+
