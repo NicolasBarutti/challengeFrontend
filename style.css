@@ -78,10 +78,19 @@ footer{
 
 .footer-left {
     color: #FFFFFF;
+    margin: 20px 0 0 30px
+}
+
+.footer-left h4{
+    /*margin-left: 10px;*/
 }
 
 footer a{
     color: #FFFFFF;
+}
+
+.footer-middle{
+    margin: 40px 0 0 10px
 }
 
 .footer-right{
@@ -93,5 +102,12 @@ footer a{
     margin: 20px 0;
     height: 50px;
 }
+
+.legal{
+    display: flex;
+    justify-content: center;
+    background-color: #4732C9;
+}
+
 
 
