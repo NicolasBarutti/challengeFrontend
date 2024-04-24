@@ -19,17 +19,17 @@ header{
 
 }
 
-img {
+.header-left img {
     height: 150px;
     width: 150px;
     padding: 15px;
 }
 
-.title{
+.header-left .title{
     margin: 20px 0 0 30px;
 }
 
-.links{
+header .links{
     width: 500px;
     margin-top: 120px;
     padding-right: 50px;
@@ -37,6 +37,27 @@ img {
     justify-content: space-evenly;
 }
 
-a{
+.links a{
     color: #FFFFFF;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .about{
+    margin-top: 60px;
+    margin-left: 20px;
+    width: 500px;
+}
+
+.about h2{
+    padding-bottom: 50px;
+}
+
+.main-right img{
+    height: 400px;
+    width: 600px;
+    margin: 60px 40px 0 0;
 }
