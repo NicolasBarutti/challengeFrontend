@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
 
 header{
     display: flex;
@@ -73,8 +76,22 @@ footer{
     justify-content: space-between;
 }
 
-footer .footer-left{
+.footer-left {
+    color: #FFFFFF;
+}
 
+footer a{
+    color: #FFFFFF;
+}
+
+.footer-right{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-right svg{
+    margin: 20px 0;
+    height: 50px;
 }
 
 
