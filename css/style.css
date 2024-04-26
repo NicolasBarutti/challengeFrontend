@@ -8,11 +8,16 @@ a{
 }
 
 header{
+  background: rgb(14,95,253);
+  background: linear-gradient(90deg, rgba(14,95,253,1) 12%, rgba(14,175,253,1) 80%)
+}
+
+/*Home*/
+
+.home{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgb(14,95,253);
-    background: linear-gradient(90deg, rgba(14,95,253,1) 12%, rgba(14,175,253,1) 80%)
 }
 
 .header-left{
@@ -108,6 +113,89 @@ footer a{
     justify-content: center;
     background-color: #4732C9;
 }
+
+/*Login*/
+
+.login{
+    display: flex;
+    justify-content: end;
+    height: 50px;
+    align-items: center;
+}
+
+.login h1{
+    position: absolute;
+    left: 50%;
+    color: white;
+}
+
+.login nav{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.login nav a{
+    color: white;
+}
+
+.loginMain{
+    display: flex;
+    justify-content: center;
+
+}
+
+.loginMain .center{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.loginMain .center .bemVindo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0eaffd;
+    height: 400px;
+    width: 400px;
+}
+
+.center .bemVindo h4{
+    margin-bottom: 100px;
+        color: #FFFFFF;
+
+}
+
+.center .bemVindo p{
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+
+.center .bemVindo button{
+    color: #FFFFFF;
+    background-color: #0eaffd;
+    padding: 10px 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.center .bemVindo button:hover{
+    color: #000000;
+    border: solid #000000 1px;
+    background-color: #FFFFFF;
+}
+
+.loginMain .center .cadastro{
+    background-color: gray;
+    height: 400px;
+    width: 600px;
+
+}
+
 
 
 

@@ -2,39 +2,36 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <title>Menu</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Login</title>
 </head>
 <body>
-    <header class="home">
-        <div class="header-left">
-            <img src="imagens/icon2.jpg">
-            <div class="title">
-                <h1 >AutoTech Repair Solutions</h1>
-            </div>
-
-        </div>
-        <container class="links">
-            <a href="paginas/login.html">Login</a>
-            <a href="#">Serviços</a>
-            <a href="#">Participantes</a>
-        </container>
+    <header class="login">
+      <h1>Login</h1>
+      <nav>
+          <a href="../index.html">Menu</a>
+          <a href="servicos.html">Serviços</a>
+          <a href="participantes.html">Particiantes</a>
+      </nav>
     </header>
-    <main>
-        <section class="about">
-            <h2>Sobre</h2>
-            <p>Este site tem como objetivo automatizarar por completo o reparo e manutenção dos veículos do clientes da Porto Seguro, por meio de um Chat que pode: Encontrar o problema do auto-móvel, Criar um orçamento e Localizar a oficina mais próxima de você!</p>
-            <div class="link-about">
-                <a href="#">TESTE JÁ</a>
-            </div>
-        </section>
-        <section class="main-right">
-            <img src="imagens/carro.png">
-        </section>
+    <main class="loginMain">
+        <div class="center">
+            <section class="bemVindo">
+                <h4>Bem vindo de volta !!</h4>
+                <p>Acesse sua conta agora mesmo </p>
+                <button>Entrar</button>
+            </section>
+            <section class="cadastro">
+                <h4>Criar sua conta</h4>
+                <p>Preencha seus dados:</p>
+                <form>
+                    <input type="p" placeholder="Nome: " name="Nome" id="Nome">
+                    <input type="email" placeholder="Email: " name="Email" id="Email">
+                    <input type="password" placeholder="Sennha: " name="Nome" id="Senha">
+                </form>
+                <button>Cadastrar</button>
+            </section>
+        </div>
     </main>
     <footer>
         <container class="footer-left">
