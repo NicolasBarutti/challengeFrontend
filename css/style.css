@@ -175,6 +175,7 @@ footer a{
     height: 400px;
     width: 400px;
     border: solid gray 1px;
+    margin-right: 5px;
 }
 
 .center .bemVindo h4{
@@ -259,10 +260,28 @@ form input{
 .servicos .servicos-left{
     flex-direction: column;
     align-items: center;
+    margin-right: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    height: 500px;
+    width: 500px;
+}
+
+.servicos-left h4{
+    color: #5539FF;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.servicos-left p{
+    color: #7075EA;
+    font-size: 20px;
 }
 
 .servicos .servicos-right svg{
-    height: 600px;
-    width: 400px;
+    width: 800px;
+    height: 700px;
 }
 
