@@ -285,3 +285,31 @@ form input{
     height: 700px;
 }
 
+
+
+/*Página - Participantes --------------------*/
+
+
+.participantes{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+}
+
+.participantes img{
+    width: 400px;
+    border: solid white 1px;
+    border-radius: 160px;
+    margin-bottom: 30px;
+}
+
+.participantes .nicolas, .lucas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.participantes p{
+    margin: 10px;
+}
