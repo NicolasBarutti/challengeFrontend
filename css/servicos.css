@@ -1,0 +1,39 @@
+.servicos, .servicos-left{
+    display: flex;
+    justify-content: center;
+}
+
+.servicos{
+    align-items: center;
+}
+
+.servicos .servicos-chat{
+    padding: 15px;
+    margin: 100px ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    border: 1px solid black;
+    -webkit-box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+    height: 450px;
+    width: 450px;
+    font-size: 30px;
+    text-align: center ;
+}
+
+.servicos-chat h4{
+    color: #5539FF;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.servicos-left a{
+    color: #7075EA;
+    font-size: 20px;
+    text-decoration: none;
+}

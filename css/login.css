@@ -1,0 +1,88 @@
+.loginMain{
+    display: flex;
+    justify-content: center;
+
+}
+
+.loginMain .center{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.loginMain .center .bemVindo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0eaffd;
+    height: 400px;
+    width: 400px;
+    border: solid gray 1px;
+    margin-right: 5px;
+}
+
+.center .bemVindo h4{
+    margin-bottom: 100px;
+    color: #FFFFFF;
+
+}
+
+.center .bemVindo p{
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+
+.center .bemVindo button ,.cadastro button{
+    color: #FFFFFF;
+    background-color: #0eaffd;
+    padding: 10px 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.center .bemVindo button:hover{
+    color: #000000;
+    border: solid #000000 1px;
+    background-color: #FFFFFF;
+}
+
+.loginMain .center .cadastro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 400px;
+    width: 600px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border: solid gray 1px;
+}
+
+.cadastro h4{
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #0eaffd;
+}
+.cadastro p{
+    margin-bottom: 20px;
+}
+.cadastro form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form input{
+    margin: 10px 10px;
+    padding: 5px;
+    height: 30px;
+    width: 400px;
+}
+
+.cadastro button{
+    margin-top: 30px;
+}
