@@ -92,6 +92,9 @@ footer{
     background: linear-gradient(90deg, rgba(64,94,151,1) 12%, rgba(103,151,243,1) 80%);
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    bottom:0%;
+    width: 100%;
 }
 
 .footer-left {
