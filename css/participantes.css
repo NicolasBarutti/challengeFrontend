@@ -5,8 +5,8 @@
 }
 
 .participantes img{
-    width: 400px;
-    min-height: 500px;
+    width: 350px;
+    min-height: 470px;
     border: solid white 1px;
     border-radius: 160px;
     margin-bottom: 30px;
@@ -21,4 +21,28 @@
 
 .participantes p{
     margin: 10px;
+}
+
+@media (min-width: 1201px) and (max-width: 1500px) {
+    .participantes img{
+        width: 300px;
+        min-height: 350px;
+    }
+
+    .participantes{
+        margin-top: 50px;
+        position: relative;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    .participantes{
+        flex-direction: column;
+    }
+
+    .container{
+        position: relative;
+
+        width: 100vw;
+    }
 }
